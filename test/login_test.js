@@ -82,7 +82,7 @@ describe('GISCloud sign-in page', () => {
 			it('check for forgotten password redirection', () => {
 				browser.click('.forgot-pass');
 				forgottenPasswordUrl = browser.getUrl();
-				expect(forgottenPasswordUrl, 'url is not matching /forgotten-password url').to.equal('https://www.giscloud.com/forgotten-password');
+				expect(forgottenPasswordUrl, 'url is not matching forgotten-password url').to.equal('https://www.giscloud.com/forgotten-password');
 			});
 		});
 	})
